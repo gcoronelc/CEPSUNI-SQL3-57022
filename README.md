@@ -15,7 +15,7 @@
 
 ## DATOS DEL DOCENTE
 
-- Docente: ERIC GUSTAVO CORONEL CASTILLO
+- Docente: CORONEL CASTILLO ERIC GUSTAVO
 - Blog: www.desarrollasoftware.com
 - Correo del curso: egcc.uni@gmail.com
 - Blog: www.desarrollasoftware.com
