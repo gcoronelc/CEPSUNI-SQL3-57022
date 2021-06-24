@@ -1,0 +1,13 @@
+Es necesario estar dentro del repositorio.
+
+- Clonar repositorio
+
+  > git clone <ruta>
+  
+- Actualizar repositorio 
+
+  > git pull
+  
+- Cancelar cambios locales
+
+  > git checkout .
