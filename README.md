@@ -24,8 +24,9 @@
 - GitHub: http://gcoronelc.github.io/
 
 
-# RECURSOS EN YUTUBE
+# RECURSOS
 
+- INSTALACIÓN: https://n9.cl/instalarsqlserver
 - JAVA OO: https://bit.ly/2FCowSU
 - JDBC: https://bit.ly/2TaHisH
 - PL/SQL: https://bit.ly/2uvE9cF
