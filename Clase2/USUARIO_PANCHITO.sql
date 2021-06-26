@@ -1,0 +1,36 @@
+/*
+CREACIÓN DEL LOGIN panchito
+*/
+
+USE [master]
+GO
+
+CREATE LOGIN [panchito] 
+WITH 
+	PASSWORD=N'admin', 
+	DEFAULT_DATABASE=[master], 
+	CHECK_EXPIRATION=OFF, 
+	CHECK_POLICY=OFF;
+GO
+
+
+/*
+CREACIÓN DEL USUARIO panchito
+*/
+
+USE [EUREKABANK]
+GO
+
+CREATE USER [panchito] FOR LOGIN [panchito]
+GO
+
+
+/*
+ESQUEMA POR DEFECTO DEL USUARIO panchito
+*/
+
+USE [EUREKABANK]
+GO
+
+ALTER USER [panchito] WITH DEFAULT_SCHEMA=[dbo]
+GO

@@ -1,0 +1,5 @@
+
+select 
+	SUSER_NAME() "LOGIN ID",
+	USER_NAME() "DB USER";
+GO
