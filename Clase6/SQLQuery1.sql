@@ -102,3 +102,23 @@ SELECT * FROM dbo.Curso6;
 GO
 
 
+sp_configure 'show advanced options', 1; 
+RECONFIGURE; 
+go 
+
+
+sp_configure; 
+GO 
+
+sp_configure 'Ad Hoc Distributed Queries', 1; 
+RECONFIGURE;
+GO
+
+SELECT a.* FROM OPENROWSET('SQLNCLI', 'Server=localhost;Trusted_Connection=yes;', 
+'SELECT * FROM EDUTEC.dbo.curso') AS a;
+
+SELECT a.* 
+FROM OPENROWSET('SQLNCLI', 'Server=localhost;userid=sa;password=sql', 
+	'SELECT * FROM EDUTEC.dbo.curso') AS a;
+
+
