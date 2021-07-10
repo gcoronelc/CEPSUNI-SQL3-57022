@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DS57022NorthWind">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=EGCC2020;Initial Catalog=Northwind</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>2b354488-5849-4ac9-9746-e1cc6b3c53d4</DataSourceID>
+</RptDataSource>
